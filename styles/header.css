@@ -1,0 +1,89 @@
+header {
+    width: 99%;
+    height: 70px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: black solid 3px;
+    grid-template-columns: minmax(auto, 1440px);
+    margin: 5px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 25px;
+    height: 55px;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    /* align-items: center; */
+    justify-content: center;
+    border: black 2px solid;
+    border-right: none;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    width: 160px;
+    transition-duration: 0.3s;
+
+}
+
+.logo-head {
+    font-size: 15px;
+    /* transition-duration: 0.3s; */
+
+}
+
+.logo:hover {
+    transition-duration: 0.3s;
+    cursor: pointer;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    box-shadow: inset 3px 3px 5px;
+    text-shadow: 3px 3px 5px grey;
+}
+
+.nav-block {
+    display: grid;
+    grid-template-columns: 69px 99px 92px;
+    column-gap: 50px;
+    font-size: 20px;
+    justify-items: start;
+}
+
+.nav-block > a {
+    transition-duration: 0.3s;
+}
+
+.btn-home:hover,
+.btn-about:hover,
+.btn-products:hover {
+    transition-duration: 0.3s;
+    text-shadow: 2px 2px 2px grey;
+}
+
+.btn-cart {
+    position: relative;
+    left: 0;
+    transition-duration: 0.3s;
+    margin-right: 15px;
+}
+
+.btn-cart:hover {
+    left: 10px;
+    transition-duration: 0.3s;
+
+}

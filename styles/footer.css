@@ -1,0 +1,42 @@
+footer {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 130px;
+    width: 99%;
+    border: black solid 3px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: minmax(auto, 1440px);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gh-link {
+    font-size: 20px;
+    transition-duration: 0.3s;
+
+}
+
+.gh-link:hover {
+    transition-duration: 0.3s;
+    text-shadow: 2px 2px 2px grey;
+}
+
+.svg {
+    height: 100px;
+    width: 300px;
+    transition-duration: 0.3s;
+    
+}
+
+.svg:hover {
+    background-color: black;
+    fill: white;
+    transition-duration: 0.3s;
+    transform: scale(0.9);
+}

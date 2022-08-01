@@ -1,0 +1,62 @@
+
+main {
+    border: black solid 3px;
+    width: 98.5%;
+    height: 700px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: minmax(auto, 1200px);
+    padding-left: 10px;
+    /* grid-template-rows: minmax(auto, 700px); */
+}
+
+.main-content {
+    display: grid;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    grid-template-columns: minmax(auto, 450px) minmax(auto, 450px);
+}
+
+.main-description {
+    display: grid;
+    justify-items: center;
+}
+
+.main-heading {
+    font-size: 55px;
+    margin: 0;
+}
+
+.shop-description {
+    font-size: 23px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.main-button {
+    margin-top: 20px;
+    border: 3px solid black;
+    border-radius: 35px;
+    width: 200px;
+    height: 70px;
+    font-size: 25px;
+    background-color: white;
+    transition-duration: 0.3s;
+
+}
+
+.main-button:hover {
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    transition-duration: 0.3s;
+    border-radius: 0;
+}
+
+.main-image {
+    width: 400px;
+    height: 400px;
+}
+
